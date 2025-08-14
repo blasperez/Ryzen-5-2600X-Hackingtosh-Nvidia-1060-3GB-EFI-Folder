@@ -1,0 +1,51 @@
+FOLIO INTERNO No.A 27458
+Tipo de comprobante: I - Ingreso
+Folio fiscal: 5ED10CBB-DEF6-476D-9E45-D60923C9846B
+Expedido en (C.P.): 55710
+"CONSULTORIA EN CALIDAD Y LOGISTICA VPG" Fecha de emisión: 25/07/2025 03:34:37 p. m.
+RFC.: CCL091029P4A Fecha de timbrado: 2025-07-25 15:35:03
+Régimen fiscal: 626 - Régimen Simplificado de Confianza CSD del emisor: 00001000000515742128
+Domicilio fiscal: CSD del SAT: 00001000000709182898
+Primaveras Num. Exterior 543 Num. Interior Mz 143 Lt 26
+Villa de las Flores 2daSeccion Coacalco
+Coacalco de Berriozabal Estado de México
+Tel: 5558794173
+Email: facturacion@grupo-vpg.com
+Receptor: RINES ESPECIALES C.P.: 45010
+RFC.: RES8106273W6 Forma de pago: 99 - Por definir
+Régimen fiscal: 601 - General de Ley Personas Morales Método de pago: PPD - Pago en parcialidades o diferido
+Exportación: 01-No aplica Tipo de cambio: 1
+Uso de CFDI: G03 - Gastos en general.
+Moneda: Peso mexicano
+Factura
+Cantidad Clave Clave Código Concepto / Precio Impuestos Importe
+Unidad Producto/Servicio Descripción Unitario
+SAT
+VERIFICACION DE
+NORMAS OFICIALES
+1 E48 80151503 1 3,162.50 002-IVA 506.00 3,162.50
+MEXICANAS
+Importe con letra:
+TRES MIL SEISCIENTOS SESENTA Y OCHO PESOS 50/100 M.N. Subtotal 3,162.50
+Comentarios: Descuentos 0.00
+Según pedimento de importación No. 25 16 3807 5005428 Impuestos Trasladados 506.00
+25096USDNOM-050-SCFI-2004006450
+Total 3,668.50
+Cadena Original del complemento de certificación digital del SAT
+||1.1|5ED10CBB-DEF6-476D-9E45-D60923C9846B|2025-07-25T15:35:03|MAS0810247C0|NGn9YwG5Z
+GGco4QQ2PPzxf/eE7bFbgmOeAoWO1LZb0/B5aFZCv4t0SXSFNf5mcNmxyA/6Aab7LaKSlRbAZvbCkapoJjT5
+9pzm4pcv+A67uneioLE7uy2bmAQmntb4gAOhP3GCtbmuf+P4JXnhUJAYVAvLoPYFlFNbYMhpk7qXZWEqlKc
+v7/vjZdYhMbMU0CKHqFeKDF+1iJxrpmK73bf20lsKPd0rhOHeRKYtbEbl8oxbssvI54Qsj1VPhrL+JNzRMcJQ4
+BToD6fqowaqtRfXHawR0hyn2tp1azPPTk0jMwsf1ueRfzvS+B3973yXWLA25kBO8DRO+D6ugqCGFA4xw==|
+00001000000709182898||
+Sello digital del emisor
+NGn9YwG5ZGGco4QQ2PPzxf/eE7bFbgmOeAoWO1LZb0/B5aFZCv4t0SXSFNf5mcNmxyA/6Aab7LaKSlRbAZv
+bCkapoJjT59pzm4pcv+A67uneioLE7uy2bmAQmntb4gAOhP3GCtbmuf+P4JXnhUJAYVAvLoPYFlFNbYMhpk7
+qXZWEqlKcv7/vjZdYhMbMU0CKHqFeKDF+1iJxrpmK73bf20lsKPd0rhOHeRKYtbEbl8oxbssvI54Qsj1VPhrL+J
+NzRMcJQ4BToD6fqowaqtRfXHawR0hyn2tp1azPPTk0jMwsf1ueRfzvS+B3973yXWLA25kBO8DRO+D6ugqCG
+FA4xw==
+Sello digital del SAT
+TKV4Lkj/jTXbtHNlKUQlgFKbA3XMJ/DTrm80b+5hN3AaBladRxK9xytGTFA3lEyfUQZUmSfJVpFzsAiZLJWq7KsJ
+oLaEjPQuYsYK2Lyq44MwtVDEl7wY1X93Ygi86w1q3YVay/b1FhnZCBrvb2rH1M188ZKJoIfmoZoM0RGecqpe
+v3o0ZyOSLnOydvAEGJaDb090N7rn6qFyAwjblf5Th9AgpTnxXS+JONvZk32JUZfT0H+Cvj1o2b9fXo5tTkH1WO
+/ShTJY70aXP1scKD7q+U5ovNitsx2Bh24jII/3lyRYR/kYTCQr1O6OcCUOzLEU9sEAqV+4HPgZeRmUiFAs1w==
