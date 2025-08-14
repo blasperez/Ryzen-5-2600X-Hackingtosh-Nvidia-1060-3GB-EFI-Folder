@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayProductID</key>
+	<integer>10016</integer>
+	<key>DisplayProductName</key>
+	<string>VG278</string>
+	<key>DisplayVendorID</key>
+	<integer>1715</integer>
+	<key>IODisplayEDID</key>
+	<data>
+	AP///////wAGs3ycAQEBAQkfAQSlPCJgO2+xp1VMniUMUFS37wBxT4GAgUCBwIEAlQCz
+	AAEBAjqAGHE4LUBYLEUAVlAhAAAeAAAA/QAopcPDKQEKICAgICAgAAAA/ABWRzI3OAog
+	ICAgICAgAAAA/wBNMkxNUVMxMzE1NTQKAV4CAxjxS5AFBAMCARESExQfIwkHB4MBAACk
+	nICgcDhZQDAgNQBWUCEAABqKTYCgcDgsQDAgNQBWUCEAABr+W4CgcDg1QDAgNQBWUCEA
+	ABqGb4CgcDhAQDAgNQBWUCEAABr8foCIcDgSQBggNQBWUCEAAB4AAAAAAAAAAAAAAAAA
+	/A==
+	</data>
+</dict>
+</plist>
