@@ -301,7 +301,7 @@ def generate_html(invoices: List[InvoiceInfo], pedimentos: List[PedimentoInfo], 
 			f"<td>{escape(inv.rfc)}</td>"
 			f"<td>{escape(inv.currency or '')} {escape(inv.total)}</td>"
 			f"<td>{escape(inv.pedimento_number_in_text)}</td>"
-			f"<td><a href='{escape(str(inv.raw_text_path.name if inv.raw_text_path else ''))}' target='_blank'>Texto</a></td>"
+			f"<td><a href='{escape(inv.file_name)}' target='_blank'>PDF</a></td>"
 			"</tr>"
 		)
 
@@ -309,10 +309,10 @@ def generate_html(invoices: List[InvoiceInfo], pedimentos: List[PedimentoInfo], 
 		"<section>\n"
 		"  <h2>Resumen de facturas</h2>\n"
 		"  <table>\n"
-		"    <thead><tr><th>Archivo</th><th>Número</th><th>Fecha</th><th>Cliente</th><th>RFC</th><th>Total</th><th>Pedimento (en factura)</th><th>Texto</th></tr></thead>\n"
+		"    <thead><tr><th>Archivo</th><th>Número</th><th>Fecha</th><th>Cliente</th><th>RFC</th><th>Total</th><th>Pedimento (en factura)</th><th>PDF</th></tr></thead>\n"
 		"    <tbody>" + "".join(inv_rows) + "</tbody>\n"
 		"  </table>\n"
-		"  <p class=\"muted\">Nota: Los enlaces de <span class=\"kbd\">Texto</span> permiten revisar el contenido extraído para auditoría.</p>\n"
+		"  <p class=\"muted\">Los enlaces abren el PDF original.</p>\n"
 		"</section>\n"
 	)
 
@@ -328,7 +328,7 @@ def generate_html(invoices: List[InvoiceInfo], pedimentos: List[PedimentoInfo], 
 			f"<td>{escape(p.importer_name)}<br><small class='muted'>{escape(p.importer_rfc)}</small></td>"
 			f"<td>{escape(p.customs_value)}</td>"
 			f"<td>{escape(p.taxes_total)}</td>"
-			f"<td><a href='{escape(str(p.raw_text_path.name if p.raw_text_path else ''))}' target='_blank'>Texto</a></td>"
+			f"<td><a href='{escape(p.file_name)}' target='_blank'>PDF</a></td>"
 			"</tr>"
 		)
 
@@ -336,7 +336,7 @@ def generate_html(invoices: List[InvoiceInfo], pedimentos: List[PedimentoInfo], 
 		"<section>\n"
 		"  <h2>Resumen de pedimentos</h2>\n"
 		"  <table>\n"
-		"    <thead><tr><th>Archivo</th><th>Número de pedimento</th><th>Fecha</th><th>Aduana</th><th>Importador</th><th>Valor en aduana</th><th>Impuestos</th><th>Texto</th></tr></thead>\n"
+		"    <thead><tr><th>Archivo</th><th>Número de pedimento</th><th>Fecha</th><th>Aduana</th><th>Importador</th><th>Valor en aduana</th><th>Impuestos</th><th>PDF</th></tr></thead>\n"
 		"    <tbody>" + "".join(ped_rows) + "</tbody>\n"
 		"  </table>\n"
 		"</section>\n"
@@ -388,7 +388,7 @@ def generate_html(invoices: List[InvoiceInfo], pedimentos: List[PedimentoInfo], 
 				f"    Número: {escape(p.pedimento_number)} | Fecha: {escape(p.date)} | Aduana (clave): {escape(p.aduana)}<br>",
 				f"    Importador: {escape(p.importer_name)} <small class='muted'>({escape(p.importer_rfc)})</small><br>",
 				f"    Valor en aduana: {escape(p.customs_value)} | Total liquidación: {escape(p.taxes_total)} ",
-				f"    | <a href='{escape(str(p.raw_text_path.name if p.raw_text_path else ''))}' target='_blank'>Ver texto</a>",
+				f"    | <a href='{escape(p.file_name)}' target='_blank'>Ver PDF</a>",
 				"  </div>",
 			])
 		section.append("</section>")
