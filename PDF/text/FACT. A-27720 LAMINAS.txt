@@ -1,0 +1,53 @@
+FOLIO INTERNO No.A 27720
+Tipo de comprobante: I - Ingreso
+Folio fiscal: 924B26F4-12F5-48C5-8C6A-FA43DD85D4C0
+Expedido en (C.P.): 55710
+"CONSULTORIA EN CALIDAD Y LOGISTICA VPG" Fecha de emisión: 07/08/2025 04:58:04 p. m.
+RFC.: CCL091029P4A Fecha de timbrado: 2025-08-07 16:58:53
+Régimen fiscal: 626 - Régimen Simplificado de Confianza CSD del emisor: 00001000000515742128
+Domicilio fiscal: CSD del SAT: 00001000000709182898
+Primaveras Num. Exterior 543 Num. Interior Mz 143 Lt 26
+Villa de las Flores 2daSeccion Coacalco
+Coacalco de Berriozabal Estado de México
+Tel: 5558794173
+Email: facturacion@grupo-vpg.com
+Receptor: LAMINAS PLASTICAS Y COMPLEMENTOS C.P.: 80200
+RFC.: LPC091207NW4 Forma de pago: 99 - Por definir
+Régimen fiscal: 601 - General de Ley Personas Morales Método de pago: PPD - Pago en parcialidades o diferido
+Exportación: 01-No aplica Tipo de cambio: 1
+Uso de CFDI: G03 - Gastos en general.
+Moneda: Peso mexicano
+Factura
+Cantidad Clave Clave Código Concepto / Precio Impuestos Importe
+Unidad Producto/Servicio Descripción Unitario
+SAT
+VERIFICACION DE
+NORMAS OFICIALES
+1 E48 80151503 1 3,162.50 002-IVA 506.00 3,162.50
+MEXICANAS
+MODELOS
+13 E48 80151503 2 ADICIONALES 253.00 002-IVA 526.24 3,289.00
+Importe con letra:
+SIETE MIL CUATROCIENTOS OCHENTA Y TRES PESOS 74/100 M.N. Subtotal 6,451.50
+Comentarios: Descuentos 0.00
+SEGUN PEDIMENTO DE IMPORTACION: 25 11 3259 5000580 Impuestos Trasladados 1,032.24
+25096USDNOM-050-SCFI-2004006848
+Total 7,483.74
+Cadena Original del complemento de certificación digital del SAT
+||1.1|924B26F4-12F5-48C5-8C6A-FA43DD85D4C0|2025-08-07T16:58:53|MAS0810247C0|hRnqvKl+feN
+rQcWqoY+ZQtk8ffZyR1Fu5WV/taKZaGPYf5VY+xY4VxZe2kBDdrBdjJAE8KYB8itffFtKoll2aBZHyj8Hd5lZ6ADhy
+EL4u+bi+Cl3u9a5sib4i7x6F3WbhW5dY9t+hSgsdxxAe9dfVnnM1y7gefI5pymZkGKCiScqNAzr0WKP10anA2
+2wOLI8ZjU6OBkInS8W4Jx64pl0+GCHlREeiDCeuMj8eDhqUIXaahJCPSRGcMHLbJT666iZuzNfMf6yjEQ783f
+mkjCuBzMeKrczrk/3V760SsmC7DOhD03y2G4lms8CjzfMgMoFSJCFy5YYJYySyJoGj+g+tg==|000010000007
+09182898||
+Sello digital del emisor
+hRnqvKl+feNrQcWqoY+ZQtk8ffZyR1Fu5WV/taKZaGPYf5VY+xY4VxZe2kBDdrBdjJAE8KYB8itffFtKoll2aBZHyj
+8Hd5lZ6ADhyEL4u+bi+Cl3u9a5sib4i7x6F3WbhW5dY9t+hSgsdxxAe9dfVnnM1y7gefI5pymZkGKCiScqNAzr
+0WKP10anA22wOLI8ZjU6OBkInS8W4Jx64pl0+GCHlREeiDCeuMj8eDhqUIXaahJCPSRGcMHLbJT666iZuzNf
+Mf6yjEQ783fmkjCuBzMeKrczrk/3V760SsmC7DOhD03y2G4lms8CjzfMgMoFSJCFy5YYJYySyJoGj+g+tg==
+Sello digital del SAT
+XR9B4PwL3SVVGw6CcXtWYedM4WpcbBHrBq3aXcBL8vXag5iQt163FVuG2X4ihnz3SD4WH2fbkwGbj7BQ
+G4p4BrftOrx/a6hir6tDIKRfJJywlDDvznhhyeapALIVhfwCmMp5NqFlLO7Tx2VJFHpRbsKyW9tCai0c1ORKO7
+93v318y80OkQkiX+Rss/MzEUdV35eWy4XK4DDecIaqKpueIj7qomlM/O+0jhFoUvuB0yG2BWELoJnJ/csUxq
+7eH9zZ2gOLLJnWEAU5MN2y4waI/FhCs8RlWT5/6M5WQAeCdx3XadAWui2YUC1ulRfs2OWEbAYSN3QCsX
+Xz91jtjnxseQ==
