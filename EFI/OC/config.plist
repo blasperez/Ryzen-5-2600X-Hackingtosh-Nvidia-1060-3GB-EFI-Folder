@@ -278,6 +278,10 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)</key>
 			<dict>
+				<key>NVDA,Features</key>
+				<data>AAAAAA==</data>
+				<key>NVDA,NVArch</key>
+				<string>NV130</string>
 				<key>device-id</key>
 				<data>HAIAAA==</data>
 				<key>model</key>
@@ -287,350 +291,12 @@
 				<key>vendor-id</key>
 				<data>3hAAAQ==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Root Complex</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,2</string>
-				<key>device_type</key>
-				<string>IOMMU</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) I/O Memory Management Unit</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,1</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) PCIe GPP Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,1/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) PCIe GPP Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,0</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>400 Series Chipset USB 3.1 xHCI Compliant Host Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,1</string>
-				<key>device_type</key>
-				<string>SATA controller</string>
-				<key>model</key>
-				<string>400 Series Chipset SATA Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,2</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>400 Series Chipset PCIe Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,2/0,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>400 Series Chipset PCIe Port</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,2/0,0/0,0</string>
-				<key>device_type</key>
-				<string>Ethernet controller</string>
-				<key>model</key>
-				<string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
-				<key>built-in</key>
-				<data>AQ==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x1,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,2/1,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>400 Series Chipset PCIe Port</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,2/4,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>400 Series Chipset PCIe Port</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0,0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>model</key>
-				<string></string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,2/4,0/0,0</string>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>model</key>
-				<string>GP106 [GeForce GTX 1060 3GB]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,3/0,2/4,0/0,1</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>model</key>
-				<string>GP106 High Definition Audio Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,0</string>
-				<key>device_type</key>
-				<string>SMBus</string>
-				<key>model</key>
-				<string>FCH SMBus Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,3</string>
-				<key>device_type</key>
-				<string>ISA bridge</string>
-				<key>model</key>
-				<string>FCH LPC Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,1</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,2</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,3</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,4</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x5)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,5</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x6)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,6</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x18,0x7)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,24,7</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x3,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,3,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,4,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x7,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,7,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x7,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,7,1</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x7,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,7,1/0,0</string>
-				<key>device_type</key>
-				<string>Non-Essential Instrumentation</string>
-				<key>model</key>
-				<string>Zeppelin/Raven/Raven2 PCIe Dummy Function</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x7,0x1)/Pci(0x0,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,7,1/0,2</string>
-				<key>device_type</key>
-				<string>Encryption controller</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Platform Security Processor (PSP) 3.0 Device</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x7,0x1)/Pci(0x0,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,7,1/0,3</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>Zeppelin USB 3.0 xHCI Compliant Host Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,0</string>
-				<key>device_type</key>
-				<string>Non-Essential Instrumentation</string>
-				<key>model</key>
-				<string>Zeppelin/Renoir PCIe Dummy Function</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,8,1/0,2</string>
-				<key>device_type</key>
-				<string>SATA controller</string>
-				<key>model</key>
-				<string>FCH SATA Controller [AHCI mode]</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,8,1/0,3</string>
+				<key>device-id</key>
+				<data>cKEAAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>
@@ -1870,7 +1536,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string> debug=0x100 keepsyms=1 npci=0x2000 nvda_drv_vrl=1 ngfxcompat=1 ngfxgl=1 amfi_get_out_of_my_way=1 alcid=3 -allow-root -nvda_drv=1</string>
+				<string>debug=0x100 keepsyms=1 npci=0x2000 nvda_drv_vrl=1 ngfxcompat=1 ngfxgl=1 amfi_get_out_of_my_way=1 alcid=3 -allow-root -nvda_drv=1 -v -no_compat_check</string>
 				<key>csr-active-config</key>
 				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1943,18 +1609,49 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>DataHub</key>
+		<dict>
+			<key>ARTFrequency</key>
+			<integer>0</integer>
+			<key>BoardProduct</key>
+			<string></string>
+			<key>BoardRevision</key>
+			<data></data>
+			<key>DevicePathsSupported</key>
+			<integer>0</integer>
+			<key>FSBFrequency</key>
+			<integer>0</integer>
+			<key>InitialTSC</key>
+			<integer>0</integer>
+			<key>PlatformName</key>
+			<string></string>
+			<key>SmcBranch</key>
+			<data></data>
+			<key>SmcPlatform</key>
+			<data></data>
+			<key>SmcRevision</key>
+			<data></data>
+			<key>StartupPowerEvents</key>
+			<integer>0</integer>
+			<key>SystemProductName</key>
+			<string>iMacPro1,1</string>
+			<key>SystemSerialNumber</key>
+			<string>C02YFYZUHX87</string>
+			<key>SystemUUID</key>
+			<string>B1A787AB-E476-467C-A8ED-07D2095BA2E5</string>
+		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02148405QXJG36UE</string>
+			<string>C02911300CDJG36FB</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>THxfDJ/T</data>
+			<data>iEaeJHBE</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1962,9 +1659,83 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02GR04YHX87</string>
+			<string>C02YFYZUHX87</string>
 			<key>SystemUUID</key>
-			<string>CE6A458D-4004-4F22-B9B8-737D0855E007</string>
+			<string>B1A787AB-E476-467C-A8ED-07D2095BA2E5</string>
+		</dict>
+		<key>PlatformNVRAM</key>
+		<dict>
+			<key>BID</key>
+			<string></string>
+			<key>FirmwareFeatures</key>
+			<data></data>
+			<key>FirmwareFeaturesMask</key>
+			<data></data>
+			<key>MLB</key>
+			<string>C02911300CDJG36FB</string>
+			<key>ROM</key>
+			<data>iEaeJHBE</data>
+			<key>SystemSerialNumber</key>
+			<string>C02YFYZUHX87</string>
+			<key>SystemUUID</key>
+			<string>B1A787AB-E476-467C-A8ED-07D2095BA2E5</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string></string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string></string>
+			<key>BoardAssetTag</key>
+			<string></string>
+			<key>BoardLocationInChassis</key>
+			<string></string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string></string>
+			<key>BoardSerialNumber</key>
+			<string></string>
+			<key>BoardType</key>
+			<integer>0</integer>
+			<key>BoardVersion</key>
+			<string></string>
+			<key>ChassisAssetTag</key>
+			<string></string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string></string>
+			<key>ChassisType</key>
+			<integer>0</integer>
+			<key>ChassisVersion</key>
+			<string></string>
+			<key>FirmwareFeatures</key>
+			<data></data>
+			<key>FirmwareFeaturesMask</key>
+			<data></data>
+			<key>PlatformFeature</key>
+			<integer>0</integer>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>SmcVersion</key>
+			<data></data>
+			<key>SystemFamily</key>
+			<string></string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>iMacPro1,1</string>
+			<key>SystemSKUNumber</key>
+			<string></string>
+			<key>SystemSerialNumber</key>
+			<string>C02YFYZUHX87</string>
+			<key>SystemUUID</key>
+			<string>B1A787AB-E476-467C-A8ED-07D2095BA2E5</string>
+			<key>SystemVersion</key>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2028,7 +1799,7 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</string>
 			<key>AudioOutMask</key>
 			<integer>1</integer>
 			<key>AudioSupport</key>
