@@ -290,6 +290,32 @@
 				<string>@NVDA,Display-A</string>
 				<key>vendor-id</key>
 				<data>3hAAAQ==</data>
+				<key>AAPL,slot-name</key>
+				<string>Slot-1</string>
+				<key>@0,compatible</key>
+				<string>NVDA,NVMac</string>
+				<key>@0,device_type</key>
+				<string>display</string>
+				<key>@0,name</key>
+				<string>NVDA,Display-A</string>
+				<key>@1,compatible</key>
+				<string>NVDA,NVMac</string>
+				<key>@1,device_type</key>
+				<string>display</string>
+				<key>@1,name</key>
+				<string>NVDA,Display-B</string>
+				<key>@2,compatible</key>
+				<string>NVDA,NVMac</string>
+				<key>@2,device_type</key>
+				<string>display</string>
+				<key>@2,name</key>
+				<string>NVDA,Display-C</string>
+				<key>@3,compatible</key>
+				<string>NVDA,NVMac</string>
+				<key>@3,device_type</key>
+				<string>display</string>
+				<key>@3,name</key>
+				<string>NVDA,Display-D</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
 			<dict>
@@ -1536,7 +1562,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 npci=0x2000 nvda_drv_vrl=1 ngfxcompat=1 ngfxgl=1 amfi_get_out_of_my_way=1 alcid=3 -allow-root -nvda_drv=1 -v -no_compat_check</string>
+				<string>debug=0x100 keepsyms=1 npci=0x2000 nvda_drv_vrl=1 ngfxcompat=1 ngfxgl=1 amfi_get_out_of_my_way=1 alcid=3 -allow-root -nvda_drv=1 -v -no_compat_check agdpmod=pikera -disablegfxfirmware</string>
 				<key>csr-active-config</key>
 				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>
