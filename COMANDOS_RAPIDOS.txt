@@ -1,0 +1,60 @@
+=== COMANDOS RÁPIDOS PARA EJECUTAR A CIEGAS ===
+
+OPCIÓN 1: COMANDO MÁS SIMPLE (Desactiva NVIDIA temporalmente)
+----------------------------------------
+sudo nvram boot-args="nv_disable=1 -v"
+sudo reboot
+
+
+OPCIÓN 2: COMANDO COMPLETO DE RECUPERACIÓN
+----------------------------------------
+sudo nvram boot-args="debug=0x100 keepsyms=1 npci=0x2000 nvda_drv_vrl=1 ngfxcompat=1 ngfxgl=1 amfi_get_out_of_my_way=1 alcid=3 -allow-root -nvda_drv=1 -v -no_compat_check agdpmod=pikera -disablegfxfirmware nv_disable=1"
+sudo reboot
+
+
+OPCIÓN 3: LIMPIAR TODO (Reset completo)
+----------------------------------------
+sudo nvram -d boot-args
+sudo reboot
+
+
+OPCIÓN 4: ACTIVAR SSH (Para acceso remoto)
+----------------------------------------
+sudo systemsetup -setremotelogin on
+
+
+OPCIÓN 5: EJECUTAR SCRIPT DE RECUPERACIÓN
+----------------------------------------
+curl -O https://raw.githubusercontent.com/tu-repo/recuperacion_automatica.sh
+chmod +x recuperacion_automatica.sh
+./recuperacion_automatica.sh
+
+
+=== SECUENCIA A CIEGAS (MEMORIZA ESTO) ===
+
+1. Command + Espacio
+2. Escribir: terminal
+3. Enter
+4. Esperar 3 segundos
+5. Escribir: sudo nvram boot-args="nv_disable=1 -v"
+6. Enter
+7. Escribir tu contraseña
+8. Enter
+9. Escribir: sudo reboot
+10. Enter
+
+=== TECLAS IMPORTANTES ===
+
+Command + F5 = Activar VoiceOver (te dirá lo que pasa)
+Command + Espacio = Spotlight
+Command + Q = Cerrar aplicación
+Command + Tab = Cambiar entre aplicaciones
+Shift (al arrancar) = Modo seguro
+
+=== SI PUEDES VER TEXTO PERO NO GRÁFICOS ===
+
+En el bootloader de OpenCore:
+- Presiona Espacio
+- Selecciona "Reset NVRAM"
+- Enter
+- Reinicia
