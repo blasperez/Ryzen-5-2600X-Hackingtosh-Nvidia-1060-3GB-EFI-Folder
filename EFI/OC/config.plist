@@ -16,11 +16,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
+				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
+				<string>SSDT-PLUG.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -516,24 +516,7 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>Comment</key>
-				<string>Block AirPlaySupport</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Identifier</key>
-				<string>com.apple.driver.AirPlaySupport</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Strategy</key>
-				<string>Disable</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -1347,7 +1330,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<true/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DisableIoMapperMapping</key>
 			<false/>
 			<key>DisableLinkeditJettison</key>
@@ -1373,7 +1356,7 @@
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ProvideCurrentCpuInfo</key>
-			<false/>
+			<true/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
@@ -1528,9 +1511,7 @@
 				<key>revcpuname</key>
 				<string>AMD Ryzen 5 2600X Six-Core Processor</string>
 				<key>revpatch</key>
-				<string>sbvmm,cpuname,f16c</string>
-				<key>revblock</key>
-				<string>media-streamer,pci-bridge</string>
+				<string>sbvmm,cpuname</string>
 				<key>rtc-blacklist</key>
 				<data></data>
 			</dict>
@@ -1541,7 +1522,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v npci=0x2000 alcid=12 agdpmod=pikera -wegnoegpu amfi_get_out_of_my_way=1 ipc_control_port_options=0 -lilubetaall nvda_drv_vrl=1</string>
+				<string>-v npci=0x2000 alcid=12 agdpmod=pikera amfi_get_out_of_my_way=1 ipc_control_port_options=0 -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>
