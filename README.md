@@ -71,17 +71,25 @@
 
 ## ⚙️ Post-Installation
 
+### ⚠️ IMPORTANT: OpenCore Legacy Patcher (OCLP)
+**READ `PREVENCION_PANTALLA_NEGRA_OCLP.md` BEFORE applying OCLP!**
+
+The config includes:
+- Special boot-args for OCLP: `ipc_control_port_options=0 -lilubetaall`
+- Emergency boot entries (press Space in OpenCore menu)
+- NVIDIA-specific fixes: `agdpmod=pikera -disablegfxfirmware`
+
 ### Fix Audio (if needed)
 ```bash
 # Current layout is 7, if not working try:
 ./audio_asus_tuf_gaming_plus_ii.sh
 ```
 
-### Fix Black Screen after OpenCore Legacy Patcher
-```bash
-# If screen goes black after OCLP:
-./solucion_pantalla_negra.sh
-```
+### Emergency Recovery Options
+If screen goes black:
+1. Restart and press **Space** in OpenCore
+2. Select **"macOS Recovery (Sin GPU NVIDIA)"**
+3. This will boot with `nv_disable=1` to recover
 
 ### Verify Installation
 ```bash
