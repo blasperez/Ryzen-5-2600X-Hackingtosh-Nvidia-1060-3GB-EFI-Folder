@@ -16,19 +16,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>SSDT-HPET.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PMC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PMC.aml</string>
+				<string>SSDT-HPET.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -278,44 +270,12 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>NVDA,Features</key>
-				<data>AAAAAA==</data>
-				<key>NVDA,NVArch</key>
-				<string>NV130</string>
+				<key>AAPL,slot-name</key>
+				<string>Slot-1</string>
 				<key>device-id</key>
 				<data>HAIAAA==</data>
 				<key>model</key>
 				<string>NVIDIA GeForce GTX 1060 3GB</string>
-				<key>name</key>
-				<string>@NVDA,Display-A</string>
-				<key>vendor-id</key>
-				<data>3hAAAQ==</data>
-				<key>AAPL,slot-name</key>
-				<string>Slot-1</string>
-				<key>@0,compatible</key>
-				<string>NVDA,NVMac</string>
-				<key>@0,device_type</key>
-				<string>display</string>
-				<key>@0,name</key>
-				<string>NVDA,Display-A</string>
-				<key>@1,compatible</key>
-				<string>NVDA,NVMac</string>
-				<key>@1,device_type</key>
-				<string>display</string>
-				<key>@1,name</key>
-				<string>NVDA,Display-B</string>
-				<key>@2,compatible</key>
-				<string>NVDA,NVMac</string>
-				<key>@2,device_type</key>
-				<string>display</string>
-				<key>@2,name</key>
-				<string>NVDA,Display-C</string>
-				<key>@3,compatible</key>
-				<string>NVDA,NVMac</string>
-				<key>@3,device_type</key>
-				<string>display</string>
-				<key>@3,name</key>
-				<string>NVDA,Display-D</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
 			<dict>
@@ -326,7 +286,7 @@
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>
-				<integer>7</integer>
+				<integer>12</integer>
 				<key>model</key>
 				<string>Family 17h (Models 00h-0fh) HD Audio Controller</string>
 			</dict>
@@ -439,6 +399,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AmdTscSync.kext</string>
+				<key>Comment</key>
+				<string>AmdTscSync.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AmdTscSync</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1352,7 +1330,7 @@
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
-			<true/>
+			<false/>
 			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
@@ -1437,44 +1415,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string>debug=0x100 keepsyms=1 npci=0x2000 alcid=7 -v nv_disable=1</string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>macOS Recovery (Sin GPU NVIDIA)</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>macOS Recovery</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x1)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x28,0x64000)/\System\Library\CoreServices\boot.efi</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string>-x -v</string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>macOS Safe Mode</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>macOS Safe Mode</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x1)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x28,0x64000)/\System\Library\CoreServices\boot.efi</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowSetDefault</key>
@@ -1563,7 +1504,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 npci=0x2000 nvda_drv_vrl=1 ngfxcompat=1 ngfxgl=1 amfi_get_out_of_my_way=1 alcid=7 -allow-root -nvda_drv=1 -v -no_compat_check agdpmod=pikera -disablegfxfirmware ipc_control_port_options=0 -lilubetaall</string>
+				<string>-v debug=0x100 keepsyms=1 npci=0x2000 alcid=12 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>
