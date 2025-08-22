@@ -268,15 +268,7 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Slot-1</string>
-				<key>device-id</key>
-				<data>HAIAAA==</data>
-				<key>model</key>
-				<string>NVIDIA GeForce GTX 1060 3GB</string>
-			</dict>
+
 			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -1705,7 +1697,7 @@
 			<key>PlatformFeature</key>
 			<integer>0</integer>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1537</integer>
 			<key>SmcVersion</key>
 			<data></data>
 			<key>SystemFamily</key>
