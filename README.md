@@ -1,108 +1,49 @@
-# Solución para Problemas de iCloud, Siri y Conectividad en Hackintosh
+<h2 align="left"> Ryzen 5 2600X Hackingtosh Nvidia gtx 1060 3GB EFI Folder
 
-## 🚨 Problemas Identificados
+###
 
-Tu hackintosh tiene los siguientes problemas:
-- **iCloud**: No inicia sesión correctamente
-- **Siri**: No funciona aunque dice tener sesión iniciada  
-- **Internet**: Se corta continuamente
-- **App Store**: Dice "clave ilegal" al descargar
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maurodesouza&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=maurodesouza&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-## 🔧 Solución
+###
 
-### Archivos Incluidos
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
-1. **`config_fixed.plist`** - Configuración corregida de OpenCore
-2. **`download_kexts.ps1`** - Script PowerShell para descargar kexts faltantes
-3. **`download_kexts.bat`** - Script batch alternativo
-4. **`SOLUCION_ICLOUD_SIRI.txt`** - Guía paso a paso detallada
+###
 
-### Pasos para Solucionar
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+</div>
 
-#### 1. Descargar Kexts Faltantes
-```powershell
-# Ejecutar como administrador
-.\download_kexts.ps1
-```
+###
 
-#### 2. Instalar Kexts
-- Extrae `VirtualSMC-1.3.8-RELEASE.zip`
-- Copia a tu carpeta `Kexts/`:
-  - `SMCProcessor.kext` ⚠️ **CRÍTICO para iCloud**
-  - `SMCDellSensors.kext`
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+</div>
 
-#### 3. Actualizar Configuración
-- Haz backup de tu `config.plist` actual
-- Reemplaza con `config_fixed.plist`
+###
 
-#### 4. Limpiar Sistema
-- Reinicia hackintosh
-- Selecciona "Reset NVRAM" en OpenCore
-- Reinicia nuevamente
+<br clear="both">
 
-#### 5. Verificar en macOS
-- Cierra sesión de iCloud completamente
-- Reinicia sistema
-- Inicia sesión en iCloud nuevamente
-- Activa Siri
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
 
-## 🔍 Explicación Técnica
-
-### ¿Por qué fallaba iCloud?
-
-El problema principal era la **falta del kext `SMCProcessor.kext`**. Este kext:
-
-- Emula el chip SMC (System Management Controller) de Mac reales
-- Permite que macOS reconozca tu hardware como legítimo
-- Es **CRÍTICO** para que iCloud funcione correctamente
-- Habilita servicios del sistema como Siri
-
-### Orden de Kexts Importante
-
-```
-1. Lilu.kext (DEBE ir PRIMERO)
-2. VirtualSMC.kext
-3. SMCProcessor.kext ⚠️ NUEVO
-4. SMCDellSensors.kext ⚠️ NUEVO
-5. Resto de kexts...
-```
-
-### Cambios en Configuración
-
-- **Agregados**: SMCProcessor.kext, SMCDellSensors.kext
-- **Removidos**: Kexts innecesarios que causaban conflictos
-- **Optimizados**: Boot-args para mejor estabilidad de red
-- **Corregidos**: Orden de carga de kexts
-
-## 📋 Requisitos
-
-- OpenCore 0.9.0+
-- macOS 10.13+
-- PowerShell 5.0+ (para script automático)
-- Conexión a internet estable
-
-## ⚠️ Notas Importantes
-
-1. **Siempre haz backup** antes de cambiar `config.plist`
-2. **El orden de kexts es CRÍTICO** - Lilu debe ir primero
-3. **Limpia cache y NVRAM** después de los cambios
-4. **Verifica compatibilidad** con tu versión de macOS
-
-## 🆘 Si Persisten Problemas
-
-Verifica:
-1. Versiones de OpenCore y kexts
-2. Compatibilidad con tu versión de macOS  
-3. Configuración de BIOS/UEFI
-4. Que todos los kexts estén actualizados
-
-## 📞 Soporte
-
-Para problemas adicionales, verifica:
-- [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/)
-- [VirtualSMC GitHub](https://github.com/acidanthera/VirtualSMC)
-- [AMD OSX](https://amd-osx.com/) - Para procesadores AMD
-
----
-
-**⚠️ ADVERTENCIA**: Este es un hackintosh. Algunos servicios de Apple pueden no funcionar perfectamente. Usa bajo tu propia responsabilidad.
+###
