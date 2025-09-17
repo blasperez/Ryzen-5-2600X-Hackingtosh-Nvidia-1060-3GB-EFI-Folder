@@ -1,6 +1,8 @@
 <h2 align="left"> Ryzen 5 2600X Hackingtosh Nvidia gtx 1060 3GB EFI Folder
 
-###
+### Support
+
+** Esta efi es para sequoia ultima versuion para abajo, yo uso una grafica nvidia asi que solo implementen si es el caso el OCPL 
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=blasperez&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
